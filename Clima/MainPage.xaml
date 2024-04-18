@@ -25,12 +25,22 @@
       Grid.ColumnSpan="3"/>
 
 <Frame
+   x:Name="previsaotempo"
    Grid.RowSpan="2"   
    Grid.ColumnSpan="0"
+   BackgroundColor="#dcfce8"
    VerticalOptions="End"
-   HeightRequest="100"
-/>
-  
+   HeightRequest="120">
+ </Frame>
+
+ <Frame
+   x:Name="previsaosol"
+   Grid.RowSpan="2"   
+   Grid.ColumnSpan="1"
+   BackgroundColor="#dcfce8"
+   VerticalOptions="End"
+   HeightRequest="120">
+ </Frame>
 
 
 
