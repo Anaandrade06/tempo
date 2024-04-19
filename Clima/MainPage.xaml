@@ -6,14 +6,14 @@
 
 <Grid>
    <Grid.RowDefinitions>
-        <RowDefinition Height="300"/>
-        <RowDefinition Height="250"/>
+        <RowDefinition Height="200"/>
+        <RowDefinition Height="0"/>
         <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
 
     <Grid.ColumnDefinitions>
         <ColumnDefinition Width="100"/>
-        <ColumnDefinition Width="250"/>
+        <ColumnDefinition Width="100"/>
         <ColumnDefinition Width="*"/>
     </Grid.ColumnDefinitions>
 
@@ -26,20 +26,20 @@
 
 <Frame
    x:Name="previsaotempo"
-   Grid.RowSpan="2"   
-   Grid.ColumnSpan="0"
+   Grid.Row="1"
+   Grid.Column="1"
    BackgroundColor="#dcfce8"
    VerticalOptions="End"
-   HeightRequest="120">
+   HeightRequest="150">
  </Frame>
 
  <Frame
-   x:Name="previsaosol"
-   Grid.RowSpan="2"   
-   Grid.ColumnSpan="1"
-   BackgroundColor="#dcfce8"
+   x:Name="previsaochuva"
+   Grid.Row="1"   
+   Grid.Column="0"
+   BackgroundColor="#70d0d0d0"
    VerticalOptions="End"
-   HeightRequest="120">
+   HeightRequest="70">
  </Frame>
 
 

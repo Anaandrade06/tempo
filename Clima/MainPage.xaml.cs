@@ -6,13 +6,11 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
- results results = new result();
-  
-  void TestarLayout()
+   Results results = new Results();
+
+void TestarLayout()
 {
-	results.temp=23;
+	results.Temp=23;
 }
-void preenchertela()
-LabelTemp.Text = results.temp.ToString();
 
 }
