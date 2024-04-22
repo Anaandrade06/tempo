@@ -28,22 +28,37 @@
    x:Name="previsaotempo"
    Grid.Row="1"
    Grid.Column="1"
-   BackgroundColor="#dcfce8"
+   BackgroundColor="##70d0d0d0"
    VerticalOptions="End"
-   HeightRequest="150">
+   HeightRequest="120">
  </Frame>
 
- <Frame
-   x:Name="previsaochuva"
-   Grid.Row="1"   
+<Frame
+   x:Name="previsaosol"
+   Grid.Row="1"
    Grid.Column="0"
-   BackgroundColor="#70d0d0d0"
+   BackgroundColor="##70d0d0d0"
    VerticalOptions="End"
-   HeightRequest="70">
+   HeightRequest="120">
+   
+   <Label x:Name= "LabelTemp"
+   Text="tempo"
+   TextColor="White"/>
+
+   <Label x:Name= "LabelCity"
+   Text="Cidade"
+   TextColor="White"/>
+ 
  </Frame>
 
-
-
+<Frame
+   x:Name="previsaochuva"
+   Grid.Row="1"
+   Grid.Column="2"
+   BackgroundColor="##70d0d0d0"
+   VerticalOptions="End"
+   HeightRequest="120">
+ </Frame>
 
 
 
