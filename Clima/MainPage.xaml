@@ -28,7 +28,7 @@
    x:Name="previsaotempo"
    Grid.Row="1"
    Grid.Column="1"
-   BackgroundColor="##70d0d0d0"
+   BackgroundColor="##70d0d0"
    VerticalOptions="End"
    HeightRequest="120">
  </Frame>
@@ -37,7 +37,7 @@
    x:Name="previsaosol"
    Grid.Row="1"
    Grid.Column="0"
-   BackgroundColor="##70d0d0d0"
+   BackgroundColor="##70d0d0"
    VerticalOptions="End"
    HeightRequest="120">
    
@@ -55,7 +55,7 @@
    x:Name="previsaochuva"
    Grid.Row="1"
    Grid.Column="2"
-   BackgroundColor="##70d0d0d0"
+   BackgroundColor="##70d0d0"
    VerticalOptions="End"
    HeightRequest="120">
  </Frame>

@@ -2,6 +2,7 @@
 
 public partial class MainPage : ContentPage
 {
+const string Url="HPPTS://api.hgbrasil.com/eather? woeid=455927&key=3091de3d";
 	public MainPage()
 	{
 		InitializeComponent();
