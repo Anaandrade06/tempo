@@ -4,7 +4,9 @@
              x:Class="Clima.MainPage"
              Shell.NavBarIsVisible="false">
 
-<Grid>
+<Grid ColumnSpacing="10"
+      RowSpacing= "10">
+      
    <Grid.RowDefinitions>
         <RowDefinition Height="200"/>
         <RowDefinition Height="0"/>
@@ -28,36 +30,36 @@
    x:Name="previsaotempo"
    Grid.Row="1"
    Grid.Column="1"
-   BackgroundColor="##70d0d0"
+   BackgroundColor="#55ffffff"
    VerticalOptions="End"
    HeightRequest="120">
- </Frame>
+</Frame>
 
 <Frame
    x:Name="previsaosol"
    Grid.Row="1"
    Grid.Column="0"
-   BackgroundColor="##70d0d0"
+   BackgroundColor="#55ffffff"
    VerticalOptions="End"
    HeightRequest="120">
-   
-   <Label x:Name= "LabelTemp"
+
+<Label x:Name= "LabelTemp"
    Text="tempo"
    TextColor="White"/>
 
-   <Label x:Name= "LabelCity"
+<Label x:Name= "LabelCity"
    Text="Cidade"
    TextColor="White"/>
  
- </Frame>
+</Frame>
 
 <Frame
    x:Name="previsaochuva"
    Grid.Row="1"
    Grid.Column="2"
-   BackgroundColor="##70d0d0"
+   BackgroundColor="#55ffffff"
    VerticalOptions="End"
-   HeightRequest="120">
+   HeightRequest="120"> 
  </Frame>
 
 
