@@ -55,25 +55,39 @@
 
 <Frame
    x:Name="noite"
-   Grid.Row="1"
+   Grid.Row="0"
    Grid.Column="2"
    BackgroundColor="#55ffffff"
    VerticalOptions="End"
    HeightRequest="120"> 
+
+   <Label x:Name= "LabelDescricao"
+   Text="Descrição"
+   TextColor="White"/>
+   <Label x:Name= "LabelChuva"
+   Text="Chuva"
+   TextColor="White"/>
 </Frame>
 
 <Frame
    x:Name="previsao"
-   Grid.Row="2"
+   Grid.Row="0"
    Grid.Column="2"
    BackgroundColor="#55ffffff"
    VerticalOptions="End"
    HeightRequest="120"> 
+
+   <Label x:Name= "LabelaNascerdosol"
+   Text="sol"
+   TextColor="White"/>
+   <Label x:Name= "LabelUmidade"
+   Text="umidade"
+   TextColor="White"/>
 </Frame>
  
 <Frame
    x:Name="chuva"
-   Grid.Row="2"
+   Grid.Row="0"
    Grid.Column="2"
    BackgroundColor="#55ffffff"
    VerticalOptions="End"
@@ -82,7 +96,7 @@
 
 <Frame
    x:Name="estrelado"
-   Grid.Row=""
+   Grid.Row="2"
    Grid.Column="2"
    BackgroundColor="#55ffffff"
    VerticalOptions="End"
